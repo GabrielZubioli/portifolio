@@ -1,6 +1,5 @@
 # portifolio
-💻 Portifólio
-Este projeto é um portifólio e com um visual moderno, desenvolvida com HTML, CSS e JavaScript puro.
+💻 Este projeto é um portifólio com um visual moderno, desenvolvida com HTML, CSS e JavaScript puro.
 
 ✨ Funcionalidades
 Interface amigável e moderna
