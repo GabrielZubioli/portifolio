@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Document</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-container">
+        <div class="page page1">
+            <div class="container">
+                <div class="bubbles">
+                    <script>
+                        for (let i = 0; i < 40; i++) {
+                            document.write(`<span style="--i: ${Math.floor(Math.random() * 30) + 1}"></span>`);
+                        }
+                    </script>
+                </div>
+                <div class="conteudo-page1">
+                    <p class="msg">Olá eu sou Gabriel Zubioli</p>
+                    <p class="msg-dev">Desenvolvedor</p>
+                    <p class="msg-dev-full">FullStack</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="page page2">
+            <header>
+                <div class="interface">
+                    <div class="logo">
+                        <p class="GZ">Gz</p>
+                    </div>
+                    <nav class="menu-desktop">
+                        <ul>
+                            <li><a href="#">Início</a></li>
+                            <li><a href="#">Sobre</a></li>
+                            <li><a href="#">Competências</a></li>
+                            <li><a href="#">Projetos</a></li>
+                        </ul>
+                    </nav>
+                    <div class="btn-contato">
+                        <a href="#"><button>Contato</button></a>
+                    </div>
+                </div>
+            </header>
+            
+            <main>
+                <section class="topo-do-site">
+                    <div class="interface">
+                        <div class="flex">
+                            <div class="txt-topo-site">
+                                <h1>Desenvolvedor FullStack</h1>
+                                <hr>
+                                <p>
+                                    Olá, eu sou o Gabriel Zubioli, tenho 19 anos e sou movido por desafios! 
+                                    Estou sempre buscando aprender coisas novas para me destacar no mercado. 
+                                    Desde sempre tive uma conexão forte com tecnologia, e a programação se tornou minha grande paixão.
+                                </p>
+                                <div class="contatos">
+                                    <div class="btn-contato">
+                                        <a href="#"><button>Contate-me</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="img-top-site">
+                                <div class="img-container"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="pag-sobre">
+                    <p>Sobre</p>
+                    <div class="interface-sobre">
+                        <div class="slider">
+                            <div class="list">
+                                <div class="item">
+                                    <img src="/imagens/foto1.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img src="/imagens/foto2.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img src="/imagens/foto3.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img src="/imagens/foto4.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <button id="prev"><</button>
+                                <button id="next">></button>
+                            </div>
+                            <ul class="dots">
+                                <li class="active"></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="conteudo-sobre">
+                            <div class="apresentacao">
+                                <p class="ap">MUITO PRAZER,</p>
+                                <p class="ap-nome">SOU GABRIEL ZUBIOLI.</p>
+                            </div>
+                            <div> 
+                                <p>
+                                    Eu sou Gabriel da Silva Zibioli, tenho 19 anos e moro em Cianorte, no interior do Paraná. Sou movido pela curiosidade e pela vontade de viver novas experiências. Viajar é uma das minhas maiores paixões—conhecer lugares novos, explorar culturas diferentes e me aventurar por aí é o que me faz sentir vivo. Seja com minha família ou com meus amigos, sempre estou pronto para cair na estrada e criar histórias inesquecíveis.
+                                <p>
+                                    Além disso, sou completamente fascinado por carros! Amo ir a encontros automotivos, trocar ideias sobre motores, customizações e tudo que envolve esse universo. Nada como o ronco de um motor potente para animar o dia! Mas minha paixão não para por aí. Também sou um grande entusiasta da tecnologia. Tudo que envolve inovação e aprendizado desperta minha curiosidade, e eu tô sempre buscando aprender algo novo, seja sobre carros, tecnologia ou qualquer coisa que me desafie.
+                                    
+                                    Para mim, a vida é uma grande aventura, cheia de possibilidades. E eu tô aqui para aproveitar cada momento ao máximo! 🚀🚗💻🔥                            </p></div>      
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="mobile-navbar.js"></script>
+</body>
+</html>
