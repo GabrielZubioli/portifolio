@@ -1,4 +1,17 @@
 export const Projects = [
+        {
+    category: "tech",
+    project: "Landing Page O Topo Digital",
+    image: "otopodigital.png",
+    typeLabel: "Landing page",
+    skills: ["WordPress", "HTML", "CSS", "JavaScript"],
+    description:
+      "Landing page estratégica para captação de clientes, desenhada com foco em conversão, clareza de proposta e leitura rápida.",
+    highlight: "Combina criatividade, execução visual e prototipagem com tecnologia de baixo custo.",
+    repositoryUrl: "",
+    previewUrl:
+      "https://otopodigital.com.br/",
+  },
       {
     category: "tech",
     project: "Landing Page Clinora",
