@@ -1,8 +1,15 @@
 export const Projects = [
+<<<<<<< Updated upstream
         {
     category: "tech",
     project: "Landing Page O Topo Digital",
     image: "otopodigital.png",
+=======
+          {
+    category: "tech",
+    project: "Site SistemaClin",
+    image: "sistemaclin.png",
+>>>>>>> Stashed changes
     typeLabel: "Landing page",
     skills: ["WordPress", "HTML", "CSS", "JavaScript"],
     description:
@@ -10,11 +17,28 @@ export const Projects = [
     highlight: "Combina criatividade, execução visual e prototipagem com tecnologia de baixo custo.",
     repositoryUrl: "",
     previewUrl:
+<<<<<<< Updated upstream
       "https://otopodigital.com.br/",
+=======
+      "https://sistemaclin.com.br/",
+  },
+        {
+    category: "tech",
+    project: "Landing Page Clinora Revenda",
+    image: "revenda.png",
+    typeLabel: "Landing page",
+    skills: ["WordPress", "HTML", "CSS", "JavaScript"],
+    description:
+      "Landing page estratégica para captação de clientes, desenhada com foco em conversão, clareza de proposta e leitura rápida.",
+    highlight: "Combina criatividade, execução visual e prototipagem com tecnologia de baixo custo.",
+    repositoryUrl: "",
+    previewUrl:
+      "https://clinora.com.br/",
+>>>>>>> Stashed changes
   },
       {
     category: "tech",
-    project: "Landing Page Clinora",
+    project: "Site Clinora",
     image: "clinora.png",
     typeLabel: "Landing page",
     skills: ["WordPress", "HTML", "CSS", "JavaScript"],
