@@ -1,49 +1,38 @@
 export const Projects = [
-<<<<<<< Updated upstream
-        {
+    {
     category: "tech",
-    project: "Landing Page O Topo Digital",
-    image: "otopodigital.png",
-=======
-          {
-    category: "tech",
-    project: "Site SistemaClin",
+    project: "Site Sistema Clin",
     image: "sistemaclin.png",
->>>>>>> Stashed changes
-    typeLabel: "Landing page",
+    typeLabel: "Site",
     skills: ["WordPress", "HTML", "CSS", "JavaScript"],
     description:
-      "Landing page estratégica para captação de clientes, desenhada com foco em conversão, clareza de proposta e leitura rápida.",
+      "Site estratégico para captação de clientes, desenhada com foco em conversão, clareza de proposta e leitura rápida.",
     highlight: "Combina criatividade, execução visual e prototipagem com tecnologia de baixo custo.",
     repositoryUrl: "",
     previewUrl:
-<<<<<<< Updated upstream
-      "https://otopodigital.com.br/",
-=======
       "https://sistemaclin.com.br/",
   },
-        {
+  {
     category: "tech",
-    project: "Landing Page Clinora Revenda",
-    image: "revenda.png",
-    typeLabel: "Landing page",
+    project: "Site O Topo Digital",
+    image: "otopodigital.png",
+    typeLabel: "Site",
     skills: ["WordPress", "HTML", "CSS", "JavaScript"],
     description:
-      "Landing page estratégica para captação de clientes, desenhada com foco em conversão, clareza de proposta e leitura rápida.",
+      "Site estratégico para captação de clientes, desenhada com foco em conversão, clareza de proposta e leitura rápida.",
     highlight: "Combina criatividade, execução visual e prototipagem com tecnologia de baixo custo.",
     repositoryUrl: "",
     previewUrl:
-      "https://clinora.com.br/",
->>>>>>> Stashed changes
+      "https://otopodigital.com.br/",
   },
-      {
+  {
     category: "tech",
     project: "Site Clinora",
     image: "clinora.png",
-    typeLabel: "Landing page",
+    typeLabel: "Site",
     skills: ["WordPress", "HTML", "CSS", "JavaScript"],
     description:
-      "Landing page estratégica para captação de clientes, desenhada com foco em conversão, clareza de proposta e leitura rápida.",
+      "Site estratégico para captação de clientes, desenhada com foco em conversão, clareza de proposta e leitura rápida.",
     highlight: "Combina criatividade, execução visual e prototipagem com tecnologia de baixo custo.",
     repositoryUrl: "",
     previewUrl:
